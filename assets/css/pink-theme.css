@@ -1,0 +1,17 @@
+.pink-theme {
+    background-image: url(../images/pink-theme-bg.jpeg);
+    background-size: cover;
+    color: #f3acc7;
+
+    label[for="name"] {
+      color: rgb(0, 81, 255); 
+    }
+
+    label[for="age"] {
+      color: rgba(255, 130, 14, 0.548); 
+    }
+    #kidCalc{
+      background-image: url(../images/pink-kidcalc-bg);
+      background-size: cover;
+    }
+}

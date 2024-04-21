@@ -1,0 +1,17 @@
+.light-theme {
+    background-image: url(../images/light-theme-bg.jpeg);
+    background-size: cover;
+    color: #333;
+
+    label[for="name"] {
+      color: rgba(143, 11, 160, 0.671); 
+    }
+    
+    label[for="age"] {
+      color: rgb(7, 54, 185); 
+    }
+    #kidCalc{
+      background-image: url(../images/light-kidcalc-bg.jpg);
+      background-size: cover;
+    }
+}

@@ -1,0 +1,17 @@
+.dark-theme {
+    background-image: url(../images/black-theme-bg.jpeg);
+    background-size: cover;
+    color: #000000;
+
+    label[for="name"] {
+      color: rgb(0, 184, 9); 
+    }
+
+    label[for="age"] {
+      color: rgb(185, 7, 7); 
+    }
+    #kidCalc{
+      background-image: url(../images/black-kidcalc-bg.jpg);
+      background-size: cover;
+    }      
+}

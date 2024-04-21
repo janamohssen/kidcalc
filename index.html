@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>kidcalc</title>
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="assets/css/pink-theme.css">
+<link rel="stylesheet" type="text/css" href="assets/css/dark-theme.css">
+<link rel="stylesheet" type="text/css" href="assets/css/light-theme.css">
+</head>
+<body class="pink">
+
+<div class="container">
+  <h2>Login Form</h2>
+  <form id="loginForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="age">Age:</label>
+    <input type="text" id="age" name="age" required>
+
+    <label for="theme">Theme:</label>
+    <select id="theme" name="theme">
+      <option value="pink">Pink</option>
+      <option value="dark">Dark</option>
+      <option value="light">Light</option>
+    </select>
+
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
+<script src="script.js"></script>
+
+<div class="info-bar">
+  <p id="welcome-msg">Welcome!</p>
+  <p id="score"> Number of correct answers: <span id="score-counter">0</span></p>
+</div>
+
+<div id="kidCalc">
+  <div id="mathExpressionBox"></div>
+  <input type="text" id="answerInput" placeholder="Enter your answer">
+  <br>
+  <button class="number-btn">0</button>
+  <button class="number-btn">1</button>
+  <button class="number-btn">2</button>
+  <button class="number-btn">3</button>
+  <button class="number-btn">4</button>
+  <button class="number-btn">5</button>
+  <button class="number-btn">6</button>
+  <button class="number-btn">7</button>
+  <button class="number-btn">8</button>
+  <button class="number-btn">9</button>
+  <br>
+  <button class="operator-btn">+</button>
+  <button class="operator-btn">-</button>
+  <button class="operator-btn">&gt;</button>
+  <button class="operator-btn">&lt;</button>
+  <button class="equal-btn">=</button>
+  <br>
+  <button id="submitBtn">Submit</button>
+  <button id="clearBtn">Clear</button>
+  <div id="resultsBox"></div>
+</div>
+
+
+</body>
+</html>
